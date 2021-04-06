@@ -1,3 +1,42 @@
+h1 {
+  font-family: fantasy;
+  color: hotpink;
+}
 body {
   background-color: #F4EEED;
+  color: #2F7EB4;
+  font-family: sans-serif;
+}
+
+.pink-text {
+  color: hotpink;
+}
+
+section {
+  margin-top: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.my-button {
+  background-color: rgba(45,92,159,.8);
+  text-transform: uppercase;
+  border: 2px solid #2d5c9f;
+  color: white;
+  transition: .3s all ease-in;
+  padding: 20px;
+}
+
+.my-button:hover {
+  background-color: #2d5c9f;
+  text-transform: uppercase;
+  border: 2px solid pink;
+  color: hotpink;
 }
